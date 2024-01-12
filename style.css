@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Didot";
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/abe3d3a9-c990-459f-9407-54ac96cd2f00.woff2") format("woff2"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/09a4b57b-7400-4d30-b4ba-d6e303c57868.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bree";
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/ceb3b4a3-0083-44ae-95cb-e362f95cc91b.woff2") format("woff2"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/4d716cea-5ba0-437a-b5a8-89ad159ea2be.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Brandon-Grot";
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/69b40392-453a-438a-a121-a49e5fbc9213.woff2") format("woff2"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/9362bca5-b362-4543-a051-2129e2def911.woff") format("woff");
+}
+
 * {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,7 +32,7 @@
 nav {
   display: flex;
   height: 100px;
-  justify-content: center
+  justify-content: center;
 }
 
 a {
@@ -25,8 +40,10 @@ a {
   text-decoration: none;
 }
 
-div {
+.navElement {
   padding: 20px;
+  font-family: Bree;
+  font-size: 20px;
 }
 
 ul {
@@ -39,13 +56,15 @@ ul {
 h1 {
   margin: 20px;
   color: #3e6a31;
-  font-weight: 8;
+  font-weight: 1;
   font-style: italic;
   text-align: center;
+  font-family: Didot;
+  font-size: 28px;
 }
 
 #videoplaceholder {
-  background-color: red;
+  background-color: lightblue;
   height: 200px;
 }
 
@@ -55,8 +74,18 @@ p {
   margin-inline: 150px;
   text-align: center;
   font-style: italic;
+  font-family: Brandon-Grot;
+  font-size: 25px;
 }
 
 footer {
   background-color: #8cae36;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.75em;
+
+}
+
+#brand {
+  color: white;
 }
