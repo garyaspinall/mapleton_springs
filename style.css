@@ -46,4 +46,17 @@ h1 {
 
 #videoplaceholder {
   background-color: red;
+  height: 200px;
+}
+
+p {
+  color: #3e6a31;
+  margin: 40px;
+  margin-inline: 150px;
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  background-color: #8cae36;
 }
