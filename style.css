@@ -29,10 +29,23 @@
   font-style: italic;
 }
 
-nav {
+#topLinks {
   display: flex;
-  height: 100px;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.topLink {
+  background-color: #3e6a31;
+  padding-inline: 15px;
+  padding-block: 7px;
+  border-radius: 50px;
+}
+
+nav {
   justify-content: center;
+  display: flex;
+  padding-bottom: 20px;
 }
 
 a {
@@ -40,17 +53,18 @@ a {
   text-decoration: none;
 }
 
-.navElement {
+.navItemBox {
   padding: 20px;
   font-family: Bree;
   font-size: 20px;
 }
 
 ul {
-  list-style-type: none;
   display: flex;
   flex-direction: row;
   align-items: center;
+  list-style-type: none;
+  padding: 0px;
 }
 
 h1 {
