@@ -104,6 +104,81 @@ h2 {
   margin: auto;
 }
 
+.imageAndTextInline {
+  display: flex;
+  align-items: center;
+  margin-block: 30px;
+  justify-content: center;
+}
+
+.smallPlaceholder {
+  width: 200px;
+  height: 200px;
+  background-color: mediumturquoise;
+}
+
+.imageTitle {
+  color: black;
+  margin-left: 20px;
+  width: 150px;
+  text-decoration: underline;
+}
+
+#snacks {
+  max-width: 80%;
+  margin: 20px;
+}
+
+@media screen and (min-width: 1500px) {
+  #snacks {
+   max-width: 30%; /* For medium screens and up */
+  }
+ }
+
+#restaurantsBody {
+  margin-inline: 10%;
+}
+
+@media screen and (min-width: 1500px) {
+  #restaurantsBody {
+    margin-inline: 30%;
+  }
+}
+
+h3 {
+  text-align: left;
+  font-family: Brandon-Grot;
+  color:#3e6a31;
+  font-size: 25px;
+  font-weight: 2;
+}
+
+#restaurantsTop {
+  padding-block: 15px;
+}
+
+.restaurant {
+  padding-left: 3em;
+  text-align: left;
+  padding-block: 10px;
+}
+
+.phone {
+  color:#3e6a31;
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+.phone a {
+  color:#3e6a31;
+  text-decoration: underline;
+}
+
+i {
+  color: #3e6a31;
+  font-weight: 2;
+}
+
 p {
   color: #3e6a31;
   margin: 40px;
